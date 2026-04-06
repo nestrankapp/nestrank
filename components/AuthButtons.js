@@ -14,7 +14,7 @@ export default function AuthButtons({ session }) {
 
   return (
     <div className="top-actions">
-      <button className="ghost-btn" onClick={() => signIn('google')}>Sign in with Google</button>
+      <button className="ghost-btn" onClick={() => signIn('github')}>Sign in with GitHub</button>
     </div>
   );
 }
